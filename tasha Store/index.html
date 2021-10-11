@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link"> home </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link"> products </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link"> about </a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link"> contact </a>
+            </li>
+            <li>
+              <a href="appointment.html" class="nav-link"> appointment </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul>
+        <li class="cart">
+          <a href="cart.html">
+            <ion-icon name="basket"></ion-icon>&nbsp;<span>0</span>
+          </a>
+        </li>
+      </ul>
+      <!-- <a href="products.html" class="hero-btn"> shop now </a> -->
+    </nav>
+    <section class="hero">
+      <div>
+        <div class="space"></div>
+        <h1 class="text-slanted">Tailoring,and Alteration</h1>
+      </div>
+    </section>
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <!-- close -->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link"> home </a>
+          </li>
+          <li>
+            <a href="products.html" class="sidebar-link"> products </a>
+          </li>
+          <li>
+            <a href="about.html" class="sidebar-link"> about </a>
+          </li>
+          <li>
+            <a href="contact.html" class="sidebar-link"> contact </a>
+          </li>
+          <li>
+            <a href="appointment.html" class="sidebar-link"> appointment </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="src/script.js"></script>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
